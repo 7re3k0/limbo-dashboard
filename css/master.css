@@ -39,6 +39,7 @@ iframe {
   border: 0px;
   background-color: white;
   border-radius: 5pt;
+  padding: 0;
 }
 .column {
   box-sizing: border-box;
