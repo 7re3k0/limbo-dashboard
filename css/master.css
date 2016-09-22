@@ -41,6 +41,9 @@ iframe {
   border-radius: 5pt;
   padding: 0;
 }
+.subs iframe {
+  background-color: black;
+}
 .column {
   box-sizing: border-box;
   padding: 10pt;
