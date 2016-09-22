@@ -5,21 +5,26 @@
     <title>Limbo Dashboard</title>
     <link rel="stylesheet" href="./css/flex-layout-attribute.min.css">
     <link rel="stylesheet" href="./css/master.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
   </head>
   <body>
     <div id="mainwrap" layout="row stretch-stretch">
-    <div class="column">
-      <iframe id="chat" src="https://www.nightdev.com/hosted/obschat/?theme=bttv_light&channel=limbobulgaria&fade=false&bot_activity=true&prevent_clipping=false" width="100%" height="100%" frameBorder="0"></iframe>
+    <div class="column first">
+      <h1 class="margined">Chat:</h1>
+      <iframe id="chat" src="https://www.nightdev.com/hosted/obschat/?theme=bttv_light&channel=limbobulgaria&fade=false&bot_activity=true&prevent_clipping=false" ></iframe>
     </div>
-    <div class="column" layout="column top-stretch">
-      <div class="donations" self="">
-        <iframe src="http://a.muxy.io/alert/7re3k0/De0D1bKUnwrsYvMHZR0nMEDsuRTLp9FR" width="100%" height="100%" frameBorder="0"></iframe>
+    <div class="column second" layout="column top-stretch">
+      <div class="donations" >
+        <h1>Donations:</h1>
+        <h4 class="margined">Lasts for 5 minutes and disappears if reloaded</h4>
+        <iframe src="http://a.muxy.io/alert/7re3k0/De0D1bKUnwrsYvMHZR0nMEDsuRTLp9FR" ></iframe>
       </div>
-      <div class="subs" self="stretch">
-        <h1>Follows and more</h1>
-        <iframe src="http://streamlabs.com/widgets/event-list/v1/E1893F59258C66C8F12C"  width="100%" height="100%" frameBorder="0"></iframe>
+      <div class="subs" >
+        <h1 class="margined">Follows and more</h1>
+        <iframe src="http://streamlabs.com/widgets/event-list/v1/E1893F59258C66C8F12C"  ></iframe>
       </div>
     </div>
+
     </div>
 
   </body>
