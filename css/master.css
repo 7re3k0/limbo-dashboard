@@ -55,6 +55,9 @@ iframe {
 .first {
   margin-right: 10pt;
 }
+.first h1 {
+  margin-bottom: 24pt;
+}
 .subs {
   /*background-color: blue;*/
   width: 100%;
